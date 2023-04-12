@@ -7,4 +7,3 @@ After the user inputs the necessary information, the code formats the message wi
 
 The formatted message is then sent to the Discord webhook using the requests.post() method. The message is sent as a JSON payload with a "content" key containing the formatted message.
 
-Finally, the code checks if the message was sent successfully by checking the status code of the response. If the status code is 204, the message was sent successfully, and the code prints "Message sent successfully!" to the console. If the status code is anything else, the code prints "Error sending message. Status code:" followed by the status code returned by the webhook.
